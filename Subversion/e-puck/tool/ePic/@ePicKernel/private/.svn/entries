@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="62"
+   name=""
+   committed-date="2007-11-14T14:00:22.547393Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/ePic/@ePicKernel/private"
+   last-author="jhubert"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="62"
+   name="two_complement.m"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="e495189efcfca027326cd7e442f0a637"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="fct_TokString.m"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="5ee1f8eb681976398e1653e4233617b2"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+</wc-entries>

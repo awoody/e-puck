@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="98"
+   name=""
+   committed-date="2008-11-13T09:08:53.445176Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/ePic/Firmware"
+   last-author="yweibel"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="98"
+   name="BTcom_20_LIS_rev84.hex"
+   text-time="2008-11-14T03:00:07.000000Z"
+   committed-date="2008-11-13T09:08:53.445176Z"
+   checksum="e8ee3840fc4a986f49cb9c1bf2c10f4e"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-14T03:00:07.000000Z"/>
+<entry
+   committed-rev="98"
+   name="README.txt"
+   text-time="2008-11-14T03:00:07.000000Z"
+   committed-date="2008-11-13T09:08:53.445176Z"
+   checksum="bd506d1587711fc28c2e557698f88fb6"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-14T03:00:07.000000Z"/>
+</wc-entries>

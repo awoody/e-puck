@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="82"
+   name=""
+   committed-date="2008-03-06T17:14:33.584849Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/a_d"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="60"
+   name="e_accelerometer.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="9f5efc2bb0e392511061467ac5246761"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_prox_timer2.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="2742bbb91bd4956fbab519548bb91977"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="46"
+   name="a_d.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="7476f7be6664a8c9c3ce9fec07440d7c"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_prox.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="21f080b1eaa66b8533a3f0d1baf77070"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_ad_conv.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="07d51dbacb2d1155fe9b4c85dce146b6"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_micro.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="8858fa77577a21b904f61fc1e479e29d"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_accelerometer.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="9bebcbcaacfdda1a356e7921bf3e3572"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   name="advance_ad_scan"
+   kind="dir"/>
+<entry
+   committed-rev="12"
+   name="Makefile"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-02-08T14:38:27.212344Z"
+   checksum="3f2d460e5b0fc2d83c67a4fc1a9b1951"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="82"
+   name="e_prox.c"
+   text-time="2008-03-07T03:00:04.000000Z"
+   committed-date="2008-03-06T17:14:33.584849Z"
+   checksum="ca52dcd50cf19243d952c7d8c779dfb9"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-03-07T03:00:04.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_ad_conv.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="7e3a8172710e8c13fc4fddd1b02ee9ce"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_micro.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="de0dde0c9316f66e7d46e9b2f2b87071"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

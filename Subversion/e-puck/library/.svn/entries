@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="104"
+   name=""
+   committed-date="2008-12-15T14:47:50.215328Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="fft"
+   kind="dir"/>
+<entry
+   name="contrib"
+   kind="dir"/>
+<entry
+   name="matlab"
+   kind="dir"/>
+<entry
+   name="a_d"
+   kind="dir"/>
+<entry
+   committed-rev="38"
+   name="Doxyfile"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-10T14:51:12.122120Z"
+   checksum="e7abbfda840c3a5df9281fc40cecf93b"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   name="motor_led"
+   kind="dir"/>
+<entry
+   committed-rev="38"
+   name="logo.gif"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-10T14:51:12.122120Z"
+   checksum="1832240f79a698b9a3e13518618c29da"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   name="bluetooth"
+   kind="dir"/>
+<entry
+   name="camera"
+   kind="dir"/>
+<entry
+   name="uart"
+   kind="dir"/>
+<entry
+   name="I2C"
+   kind="dir"/>
+<entry
+   name="codec"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,85 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\begin{document}
+
+\section{Fully Restoring Factory Settings}
+
+There are a few steps involved in fully restoring an epuck to the default settings, which are outlined in this document.  In order to perform this, you will need the latest version of the MPLAB IDE software, which you can get at this address: http://www.microchip.com/
+
+You will also need the MPLAB ICD 2 programmer, which works with the epuck's chipset, the proper cable for connecting the epuck to the ICD2, and the ICD2's cable for connecting to a usb port.  Finally, there is a file located in the e-puck file archive (the folder that contains this guide) in the Compiled Libraries folder, called firmware.hex.  This is the file you will export to the epuck when prompted.
+
+Below, instructions of the form A - B - C refer to menu items in the MPLAB IDE Program.
+
+\subsection{Step by Step}
+
+\begin{enumerate}
+
+	\item Remove the hardware on the top of the e-puck.  Typically, this is the hardware with the speaker, selector, etc.  It is attached to the puck with 3 small screws.
+	\item Connect the e-puck connector cable to the 12-pin connector on the epuck robot.  This connector is on the back-left side if you hold the robot with the camera facing towards you.
+	\item Connect the e-puck connector to the programmer.
+	\item Turn the e-puck on.
+	\item Connect the programmer to your computer's USB port.
+	\item Load MPLAB IDE.
+	\item Select the dsPIC30F6014A device. (Configure -> Select Device ..)
+	\item Import firmware.hex (File - Import).
+	\item Select the ICD2 programmer (Programmer - Select Programmer - MPLAB ICD 2)
+	\item Connect to the programmer (Programmer - Connect)
+	\item Program the e-puck (Programmer - Program)
+	\item This can take a couple of minutes, and once it's done you can use the e-puck again.  The terminal will print MPLAB ICD 2 Ready when it terminates.
+
+\end{enumerate}
+
+\end{document}

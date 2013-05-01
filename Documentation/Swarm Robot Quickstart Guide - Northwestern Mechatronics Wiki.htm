@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- saved from url=(0099)http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Re-loading_the_Bootloader -->
+<html lang="en" dir="ltr" class="client-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki</title>
+<meta charset="UTF-8">
+<meta name="generator" content="MediaWiki 1.18.2">
+<link rel="shortcut icon" href="http://hades.mech.northwestern.edu/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="http://hades.mech.northwestern.edu/opensearch_desc.php" title="Mech (en)">
+<link rel="EditURI" type="application/rsd+xml" href="http://hades.mech.northwestern.edu/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="Mech Atom feed" href="http://hades.mech.northwestern.edu/index.php?title=Special:RecentChanges&feed=atom">
+<link rel="stylesheet" href="http://hades.mech.northwestern.edu/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.monobook&only=styles&skin=monobook&*">
+<!--[if lt IE 5.5000]><link rel="stylesheet" href="/skins/monobook/IE50Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 5.5000]><link rel="stylesheet" href="/skins/monobook/IE55Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="/skins/monobook/IE60Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/skins/monobook/IE70Fixes.css?303" media="screen" /><![endif]--><style type="text/css" media="all">.mw-collapsible-toggle{float:right} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
+
+/* cache key: mewiki:resourceloader:filter:minify-css:4:4250852ed2349a0d4d0fc6509a3e7d4c */
+</style><style type="text/css" media="all">.js-messagebox{margin:1em 5%;padding:0.5em 2.5%;border:1px solid #ccc;background-color:#fcfcfc;font-size:0.8em}.js-messagebox .js-messagebox-group{margin:1px;padding:0.5em 2.5%;border-bottom:1px solid #ddd}.js-messagebox .js-messagebox-group:last-child{border-bottom:thin none transparent}
+
+/* cache key: mewiki:resourceloader:filter:minify-css:4:8b08bdc91c52a9ffba396dccfb5b473c */
+</style><meta name="ResourceLoaderDynamicStyles" content="">
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}a.new,#quickbar a.new{color:#ba0000}
+
+/* cache key: mewiki:resourceloader:filter:minify-css:4:c88e2bcd56513749bec09a7e29cb3ffa */
+</style>
+<script src="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/load.php"></script><script src="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/load(1).php"></script>
+<script>if(window.mw){
+	mw.config.set({"wgCanonicalNamespace": "", "wgCanonicalSpecialPageName": false, "wgNamespaceNumber": 0, "wgPageName": "Swarm_Robot_Quickstart_Guide", "wgTitle": "Swarm Robot Quickstart Guide", "wgCurRevisionId": 19044, "wgArticleId": 3255, "wgIsArticle": true, "wgAction": "view", "wgUserName": null, "wgUserGroups": ["*"], "wgCategories": ["E-puck", "SwarmRobotProject"], "wgBreakFrames": false, "wgRestrictionEdit": [], "wgRestrictionMove": []});
+}
+</script><script>if(window.mw){
+	mw.loader.load(["mediawiki.page.startup"]);
+}
+</script><script type="text/javascript" src="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/load(2).php"></script>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Swarm_Robot_Quickstart_Guide action-view skin-monobook">
+<div id="globalWrapper">
+<div id="column-content"><div id="content"><div id="mw-js-message" class="js-messagebox" style="display: none;"></div>
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading">Swarm Robot Quickstart Guide</h1>
+	<div id="bodyContent">
+		<div id="siteSub">From Mech</div>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav">Jump to: <a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#column-one">navigation</a>, <a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#searchInput">search</a></div>
+		<!-- start content -->
+<div lang="en" dir="ltr" class="mw-content-ltr"><table id="toc" class="toc"><tbody><tr><td><div id="toctitle"><h2>Contents</h2><span class="toctoggle">&nbsp;[<a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#" class="internal" id="togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Checklist"><span class="tocnumber">1</span> <span class="toctext">Checklist</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Items_needed_to_edit_the_e-puck_code"><span class="tocnumber">1.1</span> <span class="toctext">Items needed to edit the e-puck code</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Compiling_the_project"><span class="tocnumber">1.1.1</span> <span class="toctext">Compiling the project</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Programming_the_e-pucks"><span class="tocnumber">2</span> <span class="toctext">Programming the e-pucks</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Connecting_to_the_e-puck"><span class="tocnumber">2.1</span> <span class="toctext">Connecting to the e-puck</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Programming_the_e-puck"><span class="tocnumber">2.2</span> <span class="toctext">Programming the e-puck</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Troubleshooting"><span class="tocnumber">2.2.1</span> <span class="toctext">Troubleshooting</span></a>
+<ul>
+<li class="toclevel-4 tocsection-8"><a href="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki.htm"><span class="tocnumber">2.2.1.1</span> <span class="toctext">Re-loading the Bootloader</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Starting_the_Vision_System"><span class="tocnumber">3</span> <span class="toctext">Starting the Vision System</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Using_the_Real-Time_Display"><span class="tocnumber">4</span> <span class="toctext">Using the Real-Time Display</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Using_the_Packet_Parser_with_Timestamp"><span class="tocnumber">5</span> <span class="toctext">Using the Packet Parser with Timestamp</span></a></li>
+</ul>
+</td></tr></tbody></table>
+<p>This guide was written as a quickstart guide for the Swarm Robots Project, but contains general information about programming e-pucks.
+</p>
+<h1> <span class="mw-headline" id="Checklist">Checklist</span></h1>
+<p>In order to run the system, you will need:
+</p>
+<ol><li> e-puck robots, with XBee extension boards and <a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Project_Documentation#XBee_Radios" title="Swarm Robot Project Documentation">configured radios</a>.
+</li><li> Bluetooth adapter on your computer, either internal or an external one such as the D-link DBT-120.
+</li><li> <a rel="nofollow" class="external text" href="http://hades.mech.northwestern.edu/wiki/index.php/Swarm_Project_E-puck_Code">Compiled .hex file found in e-puck code project</a>
+</li><li> <a rel="nofollow" class="external text" href="http://www.etc.ugal.ro/cchiculita/software/picbootloader.htm">Tiny Bootloader</a>
+</li><li> <a href="http://hades.mech.northwestern.edu/index.php/Machine_Vision_Localization_System" title="Machine Vision Localization System">Compiled program for Machine Vision Localization System</a>.
+</li><li> You may also want to use one or more of the <a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide#Analysis_Tools">Analysis Tools</a> such as the real-time display.
+</li></ol>
+<h2> <span class="mw-headline" id="Items_needed_to_edit_the_e-puck_code">Items needed to edit the e-puck code</span></h2>
+<p>If you want to edit the e-puck code, you will need the following:
+</p>
+<ol><li> Microchip <a rel="nofollow" class="external text" href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en019469&part=SW007002">MPLAB</a> (for editing code, not needed to run)
+</li><li> Microchip <a rel="nofollow" class="external text" href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en535363">C compiler for dsPICs</a> (for editing code, not needed to run)
+</li><li> <a rel="nofollow" class="external text" href="http://hades.mech.northwestern.edu/wiki/index.php/Swarm_Project_E-puck_Code">Code for e-pucks</a>
+</li></ol>
+<h3> <span class="mw-headline" id="Compiling_the_project">Compiling the project</span></h3>
+<p>To open the project, extract the directory and double-click on the <b><tt>.mcp</tt></b> file; this is the project file.  Because the directory it is in is probably different from the original directory from the computer on which the code was written, you may need to remove and re-add the sources, library, and/or linker files to the project.  The source files are in the <b>source</b> folder.  The library and linker files are in the Microhip compiler's install directory(try searching for <tt>libp30F6014A-coff.a</tt> and <tt>p30f6014A.gld</tt>).  Press f10 to compile the program.  This should generate a .hex file, which is the binary file that you will load onto the e-Puck.
+</p>
+<h1> <span class="mw-headline" id="Programming_the_e-pucks">Programming the e-pucks</span></h1>
+<p>You will need to get the compiled .hex file for the e-puck, and then load it onto the PIC with Tiny Bootloader over the bluetooth radio.  The compiled .hex file can be found here: <a href="http://hades.mech.northwestern.edu/index.php/File:Swarm_epucks_code.zip" title="File:Swarm epucks code.zip">File:Swarm epucks code.zip</a>.
+</p>
+<h2> <span class="mw-headline" id="Connecting_to_the_e-puck">Connecting to the e-puck</span></h2>
+<p>To program the e-puck, you first need to connect to the e-puck.  Go to the Control Panel, and open Bluetooth Devices, and go to <b>Devices&gt;Add...</b>.  Turn on the e-puck, check <b>My device is set up and ready to be found</b>, then click next.  When the computer has found the e-puck, select it (the ID of the epuck is a four-digit number found on a sticker on top of the bluetooth chip on the e-puck).  When the prompt asks you for a passkey, enter the 4-digit ID number.  The computer should then reserve a COM (serial) port to communicate with this particular e-puck.  The computer will set up different COM ports for different e-pucks; this is normal.  Go back to Bluetooth Devices in the Control Panel, and select the COM Ports tab, and see port is assigned <b>Outgoing</b> to the e-puck.  This is the COM port you will use to program this particular e-puck when using Tiny Bootloader.  <b>If you're using a USB bluetooth dongle, if you unplug it and replug it into a different USB port, or use a different dongle, you may need to reconnect to the e-pucks.</b>
+</p><p><a href="http://hades.mech.northwestern.edu/index.php/File:BT_COM_ports.png" class="image"><img alt="BT COM ports.png" src="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/BT_COM_ports.png" width="385" height="460"></a>
+</p>
+<h2> <span class="mw-headline" id="Programming_the_e-puck">Programming the e-puck</span></h2>
+<p>A bootloader is a type of program that is loaded onto a microcontroller which allows one to re-program the microcontroller in the field without having to use an special flash programmer (the programmer is still needed to load the bootloader onto the microcontroller in the first place).  The Bootloader has two components: a programmer that runs on your computer, and a program that runs on the e-puck's PIC.  When the PIC is turned on, bootloader will check to see if someone is attempting to re-program the PIC; if yes, the bootloader will overwrite its old program with the new program; if not, or if it times out while waiting for the new data stream, it will simply run the current program.
+</p><p>To program the e-puck, start the Tiny Bootloader program on your computer.  (Although you can also use a flash programmer such as the ICD2 to program the e-puck, it will take much longer and can't be done wirelessly.)  Click on <b>Browse</b> and select the .hex file that you want to load.  The .hex file is the compiled code from Microchip's C compiler.  Under <b>Comm</b>, use 115200 for the baud rate, and type in the outgoing COM port assigned to this e-puck (e.g. COM10, COM11, etc.).  Turn on the e-puck, and click on the Write Flash button.  The blue bar underneath the button should start counting down.  Now, hit the blue reset button on the e-puck, before the blue bar reaches zero and times out.  If the e-puck is successfully connected, an orange LED on the e-puck will turn on, and the bootloader will start to program the PIC on the e-puck.  
+</p>
+<h3> <span class="mw-headline" id="Troubleshooting">Troubleshooting</span></h3>
+<ul><li> If Tiny Bootloader cannot connect to the COM port, make sure your e-puck is on, and that you've selected the correct COM port assigned to the e-puck (the ID of the e-puck is on a sticker on top of the bluetooth chip on the e-puck's PCB.
+</li><li> If Tiny Bootloader can connect to the e-puck but cannot find the PIC, it may be that someone has overwritten the bootloader with another program.  See the section below <a href="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki.htm">Re-loading the Bootloader</a> to see how to restore the bootloader with the ICD2 programmer and MPLAB.
+</li></ul>
+<h4> <span class="mw-headline" id="Re-loading_the_Bootloader">Re-loading the Bootloader</span></h4>
+<p>The e-pucks require that a special bootloader program be loaded on it if you want to program the e-puck over a bluetooth radio.  
+</p><p>The hex file is provided here for your convenience <a href="http://hades.mech.northwestern.edu/index.php/File:Epuckbootloader.zip" title="File:Epuckbootloader.zip">File:Epuckbootloader.zip</a>
+</p><p>You can download the .hex file you need at <a rel="nofollow" class="external free" href="http://www.e-puck.org/">http://www.e-puck.org</a>.  On the website, go to Download&gt;Software&gt;Library and download the zip file.  Extract the archive, and navigate to <b>e-puck-lib\tool\bootloader\epuck_side</b>.  The file <tt>tinybld_ds6014A_7.37Mhz_115200uart1_8xPLL_with_LEDs.hex</tt> is the one we will use.
+</p><p><br>
+You will need Microchip's <a rel="nofollow" class="external text" href="http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=1406&dDocName=en019469&part=SW007002">MPLAB</a> and ICD2 to program in the bootloader on the PIC.  After opening MPLAB, select to <b>Programmer&gt;Select Programmer&gt;ICD2</b>.  Then, go to <b>File&gt;Import&gt;</b> and navigate to <tt>tinybld_ds6014A_7.37Mhz_115200uart1_8xPLL_with_LEDs.hex</tt>.  Then, connect to the ICD and program the PIC.
+</p>
+<h1> <span class="mw-headline" id="Starting_the_Vision_System">Starting the Vision System</span></h1>
+<p>The vision system is needed to track the position of the robots and send out commands.  You can get the compiled program here:<a href="http://hades.mech.northwestern.edu/index.php/File:Vision_system_localization_project.zip" title="File:Vision system localization project.zip">File:Vision system localization project.zip</a>
+</p>
+<ol><li> Connect an XBee radio with ID 0 to the computer.  The ID must be 0 so that the robots can tell that the packet is from the computer and not another robot.
+</li><li> Follow the directions on the <a href="http://hades.mech.northwestern.edu/index.php/Machine_Vision_Localization_System#Operation" title="Machine Vision Localization System"> Machine Vision Localization</a> page to set up and calibrate the system.
+</li><li> Make sure the robots are in the field of view of the vision system.
+</li><li> Let the system run for a few seconds so that the robot's positions will be updated.
+</li><li> Select the GUI window and hit 'c' to enter the command mode.
+</li><li> Select the console window and enter the goal statistics that you want using the <b>goal</b> command.  You can skip this step if you want to use the default [100 300 160000 40000 40000] goal statistics.  Send the command 2 or three times in case one or more of the robots doesn't get the message.
+</li><li> Use the <b>wake</b> command (<tt>wake 0</tt>) to start the robots.
+</li><li> Exit the console by typing <tt>exit</tt>.  The system should now be running.
+</li></ol>
+<p>Try moving the swarm to another configuration:
+</p>
+<ol><li>press 'c' at the GUI window.
+</li><li>enter the command <tt>goal 0 -100 -200 120000 0 120000 </tt>
+</li><li>type <tt>exit</tt> and hit enter.
+</li></ol>
+<h1> <span class="mw-headline" id="Using_the_Real-Time_Display">Using the Real-Time Display</span></h1>
+<p>See <a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Project_Documentation#Real-time_Display" title="Swarm Robot Project Documentation">Swarm_Robot_Project_Documentation#Real-time_Display</a>
+</p>
+<h1> <span class="mw-headline" id="Using_the_Packet_Parser_with_Timestamp">Using the Packet Parser with Timestamp</span></h1>
+<p>See <a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Project_Documentation#Using_the_Data_Logger_with_Timestamp" title="Swarm Robot Project Documentation">Swarm_Robot_Project_Documentation#Using_the_Data_Logger_with_Timestamp</a>
+</p>
+<!-- 
+NewPP limit report
+Preprocessor node count: 43/1000000
+Post-expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key mewiki:pcache:idhash:3255-0!*!0!!en!2!* and timestamp 20130213203422 -->
+</div><div class="printfooter">
+Retrieved from "<a href="http://hades.mech.northwestern.edu/index.php?title=Swarm_Robot_Quickstart_Guide&oldid=19044">http://hades.mech.northwestern.edu/index.php?title=Swarm_Robot_Quickstart_Guide&amp;oldid=19044</a>"</div>
+		<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks"><a href="http://hades.mech.northwestern.edu/index.php/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="http://hades.mech.northwestern.edu/index.php/Category:E-puck" title="Category:E-puck">E-puck</a></li><li><a href="http://hades.mech.northwestern.edu/index.php/Category:SwarmRobotProject" title="Category:SwarmRobotProject">SwarmRobotProject</a></li></ul></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+				<li id="ca-nstab-main" class="selected"><a href="http://hades.mech.northwestern.edu/index.php/Swarm_Robot_Quickstart_Guide" title="View the content page [alt-c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="http://hades.mech.northwestern.edu/index.php?title=Talk:Swarm_Robot_Quickstart_Guide&action=edit&redlink=1" title="Discussion about the content page [alt-t]" accesskey="t">Discussion</a></li>
+				<li id="ca-viewsource"><a href="http://hades.mech.northwestern.edu/index.php?title=Swarm_Robot_Quickstart_Guide&action=edit" title="This page is protected.
+You can view its source [alt-e]" accesskey="e">View source</a></li>
+				<li id="ca-history"><a href="http://hades.mech.northwestern.edu/index.php?title=Swarm_Robot_Quickstart_Guide&action=history" title="Past revisions of this page [alt-h]" accesskey="h">History</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+				<li id="pt-login"><a href="http://hades.mech.northwestern.edu/index.php?title=Special:UserLogin&returnto=Swarm+Robot+Quickstart+Guide" title="You are encouraged to log in; however, it is not mandatory [alt-o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a title="Visit the main page" style="background-image: url(/images/nxr_logo.jpg);" href="http://nxr.northwestern.edu/"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class="generated-sidebar portlet" id="p-navigation">
+		<h5>Navigation</h5>
+		<div class="pBody">
+			<ul>
+				<li id="n-mainpage"><a href="http://hades.mech.northwestern.edu/index.php/Main_Page" title="Visit the main page [alt-z]" accesskey="z">Main Page</a></li>
+				<li id="n-recentchanges"><a href="http://hades.mech.northwestern.edu/index.php/Special:RecentChanges" title="A list of recent changes in the wiki [alt-r]" accesskey="r">Recent changes</a></li>
+				<li id="n-help"><a href="http://hades.mech.northwestern.edu/index.php/Help:Contents" title="The place to find out">Help</a></li>
+				<li id="n-Lab-Inventory"><a href="http://hades.mech.northwestern.edu/index.php/Lab_Inventory">Lab Inventory</a></li>
+				<li id="n-File-List"><a href="http://hades.mech.northwestern.edu/index.php/Special:ListFiles">File List</a></li>
+				<li id="n-Most-Popular-Pages"><a href="http://hades.mech.northwestern.edu/index.php/Special:PopularPages">Most Popular Pages</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet">
+		<h5><label for="searchInput">Search</label></h5>
+		<div id="searchBody" class="pBody">
+			<form action="http://hades.mech.northwestern.edu/index.php" id="searchform">
+				<input type="hidden" name="title" value="Special:Search">
+				<input type="search" name="search" title="Search Mech [alt-f]" accesskey="f" id="searchInput">
+				<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton">&nbsp;
+				<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton">
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb">
+		<h5>Toolbox</h5>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="http://hades.mech.northwestern.edu/index.php/Special:WhatLinksHere/Swarm_Robot_Quickstart_Guide" title="A list of all wiki pages that link here [alt-j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="http://hades.mech.northwestern.edu/index.php/Special:RecentChangesLinked/Swarm_Robot_Quickstart_Guide" title="Recent changes in pages linked from this page [alt-k]" accesskey="k">Related changes</a></li>
+				<li id="t-specialpages"><a href="http://hades.mech.northwestern.edu/index.php/Special:SpecialPages" title="A list of all special pages [alt-q]" accesskey="q">Special pages</a></li>
+				<li><a href="http://hades.mech.northwestern.edu/index.php?title=Swarm_Robot_Quickstart_Guide&printable=yes" rel="alternate">Printable version</a></li>
+				<li id="t-permalink"><a href="http://hades.mech.northwestern.edu/index.php?title=Swarm_Robot_Quickstart_Guide&oldid=19044" title="Permanent link to this revision of the page">Permanent link</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer">
+	<div id="f-poweredbyico">
+		<a href="http://www.mediawiki.org/"><img src="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"></a>
+	</div>
+	<ul id="f-list">
+		<li id="lastmod"> This page was last modified on 15 October 2010, at 16:38.</li>
+		<li id="viewcount">This page has been accessed 37,518 times.</li>
+		<li id="privacy"><a href="http://hades.mech.northwestern.edu/index.php/Mech:Privacy_policy" title="Mech:Privacy policy">Privacy policy</a></li>
+		<li id="about"><a href="http://hades.mech.northwestern.edu/index.php/Mech:About" title="Mech:About">About Mech</a></li>
+		<li id="disclaimer"><a href="http://hades.mech.northwestern.edu/index.php/Mech:General_disclaimer" title="Mech:General disclaimer">Disclaimers</a></li>
+	</ul>
+</div>
+</div>
+<script>if(window.mw){
+	mw.loader.load(["mediawiki.user", "mediawiki.util", "mediawiki.page.ready", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax"]);
+}
+</script><script type="text/javascript" src="./Swarm Robot Quickstart Guide - Northwestern Mechatronics Wiki_files/load(3).php"></script>
+<script>if(window.mw){
+	mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"highlightbroken":1,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"monobook","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,
+	"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;mw.user.tokens.set({"editToken":"+\\","watchToken":false});;mw.loader.state({"user.options":"ready","user.tokens":"ready"});
+	
+	/* cache key: mewiki:resourceloader:filter:minify-js:4:99acc2c3ab516bb21085c70c2195f3df */
+}
+</script><!-- Served in 0.133 secs. --></body></html>

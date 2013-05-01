@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17"
+   name=""
+   committed-date="2007-03-12T17:11:01.498713Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/bootloader"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="computer_side"
+   kind="dir"/>
+<entry
+   name="epuck_side"
+   kind="dir"/>
+</wc-entries>

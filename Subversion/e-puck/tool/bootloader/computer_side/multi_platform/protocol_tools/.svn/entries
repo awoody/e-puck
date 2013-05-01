@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2006-11-15T11:45:18.560426Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/bootloader/computer_side/multi_platform/protocol_tools"
+   last-author="nct"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="listener.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2e61574efcad0db6cedc2b0d9b05eb8f"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="rfcommtest.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="14c4b666311af98a35071f412ff4b578"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+</wc-entries>

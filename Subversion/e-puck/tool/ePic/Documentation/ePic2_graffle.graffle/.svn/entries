@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="91"
+   name=""
+   committed-date="2008-11-05T10:20:58.899524Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/ePic/Documentation/ePic2_graffle.graffle"
+   last-author="yweibel"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="91"
+   name="data.plist"
+   text-time="2008-11-06T03:00:07.000000Z"
+   committed-date="2008-11-05T10:20:58.899524Z"
+   checksum="c0bb8cd16ebaeb1fc493e48fe2a12df0"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-06T03:00:07.000000Z"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="60"
+   name=""
+   committed-date="2007-10-24T07:23:55.519475Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/camera/slow_3_timer"
+   last-author="besuchet"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="46"
+   name="cam_slow.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="ef9d9ececcc10faf3e44f04d7d1a7b05"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="5"
+   name="Doxyfile"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="7e2c85e416b8704c5ed3fb40b9524f98"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="46"
+   name="e_calc.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="82c596ea01ac0d84a1347399ff870bd5"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="46"
+   name="e_timers.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="ee88ae491fb04621673edcbd72d09cd0"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_po3030k.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="47d1ca904318519c209f18de83f88c71"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="46"
+   name="e_registers.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="1852d4dffca3eed44f4d4d783773eea2"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

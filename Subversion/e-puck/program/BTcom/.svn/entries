@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="86"
+   name=""
+   committed-date="2008-07-28T09:02:53.649005Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/program/BTcom"
+   last-author="retornaz"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="77"
+   name="BTcom_floor_sensor.hex"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-02-07T16:13:43.440931Z"
+   checksum="ab1710a2934ad61ed4c1a6986c4c2171"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="86"
+   name="BTcom.mcp"
+   text-time="2008-07-29T02:00:05.000000Z"
+   committed-date="2008-07-28T09:02:53.649005Z"
+   checksum="92b55de48c333e1e8e31b6c9534c26f5"
+   last-author="retornaz"
+   kind="file"
+   prop-time="2008-07-29T02:00:05.000000Z"/>
+<entry
+   committed-rev="52"
+   name="Doxyfile"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-27T10:01:27.078278Z"
+   checksum="d34b321d6aba878cabc4b4177a1ceee4"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="84"
+   name="BTcom.c"
+   text-time="2008-07-05T02:00:04.000000Z"
+   committed-date="2008-07-03T10:03:17.864077Z"
+   checksum="1a50486b8cd64c42f60c94ecaac52c7a"
+   last-author="retornaz"
+   kind="file"
+   prop-time="2008-07-05T02:00:04.000000Z"/>
+<entry
+   committed-rev="86"
+   name="BTcom.mcw"
+   text-time="2008-07-29T02:00:05.000000Z"
+   committed-date="2008-07-28T09:02:53.649005Z"
+   checksum="8d93311747a07edb8871027de3b06380"
+   last-author="retornaz"
+   kind="file"
+   prop-time="2008-07-29T02:00:05.000000Z"/>
+<entry
+   committed-rev="77"
+   name="BTcom_default.hex"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-02-07T16:13:43.440931Z"
+   checksum="e79cf1090227e56e22d718def6cfc30f"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="77"
+   name="BTcom_floor_lis_sesnor_turret.hex"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-02-07T16:13:43.440931Z"
+   checksum="8b9390e833e2d73d9fe40d0b33c361ed"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+</wc-entries>

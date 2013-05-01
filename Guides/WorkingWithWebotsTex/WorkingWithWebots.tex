@@ -1,0 +1,113 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\begin{document}
+
+
+\section{Working with Webots}
+
+This guide gives instructions on how to upload code from the Webots environment (fresh installation) to the e-puck robot.  Before proceeding, please note that the default installation directory of the Webots program is problematic, and it is important to install the application directly to the C: under windows, or some other controlled directory in linux, at least for the purposes of this guide.
+
+\subsection{Installing Webots}
+
+Install the webots program to the C: and NOT to the default installation directory.  The latest version is always available from their website.  If you install webots directly into C: \textbackslash Webots, the cross-compilation steps detailed below will be drastically easier, since the configuration provided in the e-puck resources folder will already work.
+
+\subsubsection{A Note on Dongles}
+
+The dongles included with the e-puck robot contain valid Webots licensees.  If a dongle is in a USB drive on your computer, you will have complete access to all of the features of Webots .edu edition; if the dongle is not present then you will only be able to use the free version.
+
+\subsection{Loading the World}
+
+A world has been created for webots, and is located in the e-puck resources folder (The folder where this document is located).  It can be found in Webots/my\_project/worlds and it is called unmEpuckDevelopment.wbt.
+
+To load the world, simply boot Webots, go to file - open world, and then navigate to the directory that contains the e-puck resources folder.
+
+\subsection{The Controllers}
+
+There are two controllers loaded into the project you have just loaded, lightFollower.c and movingBlinker.c.  For information about what they are capable of doing, please refer to the .c files associated with each controller, as they are well documented.  You can plug controllers into epucks in the world by selecting the puck in the Scene Tree, and changing its controller variable to the controller of your choosing.
+
+You can also modify and create controllers usings webots.  Please refer to the webots tutorial on their website for more information about how to do this.
+
+\subsection{Cross - Compliation}
+
+In order to get your code working on the e-puck, your source code MUST be written in C and a couple of steps have to be taken to ensure the process succeeds.  Basically, for cross compilation to be possible, your controller must have a file called 'Makefile.e-puck' stored in the same directory as the controller's source code.  In the case of lightFollower and movingBlinker, the Makefile.e-puck already exists. The makefile tells the compiler where the Include list for compiling webots code is located.  This file is part of the Webots install, and is always located in the Webots installation directory. If you installed Webots to C: \textbackslash Webots, then you shouldn't have to do anything else.  If, however, it is installed in another location or you're running linux, you will need to edit the Makefile.e-puck file to point to the correct location.  It needs to have the following line:\\  {\bf include [webots-directory] \textbackslash transfer \textbackslash e-puck \textbackslash libepuck \textbackslash Makefile.include } \\where webots-directory is the path to your webots installation.
+
+If cross compilation is set up correctly, you will see the cross compilation option become available in Webots.  If you have a controller's source code open, you will see several icons above the source code, including new, open, save, save as, reload, etc.  To the right of these icons, there are several gear and broom icons.  The second gear icon (the one with the right arrow), is the cross-compile button.  Pressing this button will compile the currently selected controller for the e-puck, and put the resulting .hex file into the same directory that the controller's source code is located in.
+
+\subsection{Uploading .hex files to your puck}
+
+In order to upload code to the e-puck, you will need to first pair the e-puck with your bluetooth radio.  This is different in every operating system, but is relatively straightforward in windows.  You can always pair the puck using the 4-digit number attached to the robot with a sticker as the paircode.  Make sure the puck is on while you do this.
+
+Once your puck is paired, typically two ports will be opened between the puck and the computer, one COM port for outgoing communication, and one for incoming.  You will need to identify which port is the outgoing port.  In windows, there should be a bluetooth icon on your system trey, and if you right click on it you can open settings.  If you click on the COM Ports tab, the open ports will be enumerated along with their name, and you should be able to identify the port that your puck is using.
+
+Once you know which port your epuck is using for outgoing communications (those communications initiated by the computer), uploading the code to the puck is easy. 
+
+\begin{enumerate}
+
+	\item Double click on the e-puck in your simulator (the actual 3d model of the device).
+	\item Click the Refresh Ports button.
+	\item Click on Upload ...
+	\item Select the COM port your puck is using for outgoing communications.
+	\item Press Okay.
+	\item Once communication is established, a select file dialog should appear.  Navigate to the folder where you cross-compiled your .hex file to (see the Cross - Compilation section).
+	\item Press Okay.
+	\item You may be prompted to press the reset button; if so, do it.
+	\item The upload should begin and a progress bar will appear.
+	\item Keep the puck close to the bluetooth transmitter on your computer.  It isn't pretty if it gets out of range during the upload.
+	\item Once complete, the puck should immediately begin running the new code.
+
+\end{enumerate}
+
+\end{document}

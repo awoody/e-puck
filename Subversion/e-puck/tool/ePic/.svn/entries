@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="101"
+   name=""
+   committed-date="2008-11-13T10:38:56.398658Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/ePic"
+   last-author="yweibel"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   prop-time="2008-11-01T03:00:06.000000Z"
+   revision="104"/>
+<entry
+   committed-rev="101"
+   name="main.m"
+   text-time="2008-11-14T03:00:07.000000Z"
+   committed-date="2008-11-13T10:38:56.398658Z"
+   checksum="5d7dd70ee17da3f93cc350292ae54201"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-14T03:00:07.000000Z"/>
+<entry
+   name="@ePicKernel"
+   kind="dir"/>
+<entry
+   committed-rev="87"
+   name="filter_Floor.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="b559e47651293e771ed84cda991799d7"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="two_complement.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="e495189efcfca027326cd7e442f0a637"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="62"
+   name="epuck.tif"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="3ac15b2e41b4ae8b3ba8db53709e2741"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="62"
+   name="filter_Prox.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="c17846cae2fc9ed3fc5284abe8cb9b06"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="101"
+   name="main.fig"
+   text-time="2008-11-14T03:00:07.000000Z"
+   committed-date="2008-11-13T10:38:56.398658Z"
+   checksum="b99efe01b7b0bfd4f15aa5f2798886d1"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-14T03:00:07.000000Z"/>
+<entry
+   committed-rev="95"
+   name="controller_pos.m"
+   text-time="2008-11-11T03:00:07.000000Z"
+   committed-date="2008-11-10T08:20:17.019609Z"
+   checksum="f625e31e5b3d2b88fb870f79abb0c704"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-11T03:00:07.000000Z"/>
+<entry
+   committed-rev="87"
+   name="example.wsp"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="059deb0740dc9b49f64aeb515df0cb60"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="filter_image2.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="84f338fb05bcaea8e7a68507a4276c44"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="101"
+   name="Changelog.txt"
+   text-time="2008-11-14T03:00:07.000000Z"
+   committed-date="2008-11-13T10:38:56.398658Z"
+   checksum="a6419becb48c1f22e089946b30a3bc82"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-14T03:00:07.000000Z"/>
+<entry
+   committed-rev="62"
+   name="filter_Accel.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="8202987404421cffe023d86710d6f106"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="62"
+   name="filter_Light.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="c4caabb85207336e747206459d3437fa"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   name="Documentation"
+   kind="dir"/>
+<entry
+   committed-rev="62"
+   name="filter_Micro.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="3116e0a916d6639f536fbc9e64c03860"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="101"
+   name="README.txt"
+   text-time="2008-11-14T03:00:07.000000Z"
+   committed-date="2008-11-13T10:38:56.398658Z"
+   checksum="e15c344b65307be9d9ef31d4d24a27d8"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-14T03:00:07.000000Z"/>
+<entry
+   name="Firmware"
+   kind="dir"/>
+<entry
+   committed-rev="95"
+   name="controllersub_GoToFct.m"
+   text-time="2008-11-11T03:00:07.000000Z"
+   committed-date="2008-11-10T08:20:17.019609Z"
+   checksum="8125a518d09c75d33fa1c55fb4c6a46f"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-11T03:00:07.000000Z"/>
+<entry
+   committed-rev="87"
+   name="controller.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="759e58325712e6ba5e69743b2be3496a"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+</wc-entries>

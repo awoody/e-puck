@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="76"
+   name=""
+   committed-date="2008-02-07T15:08:56.734738Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/program/statics%20libraries%20maker"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="45"
+   name="lib maker.mcp"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-14T09:26:14.144197Z"
+   checksum="b08df9dd2dd338eef9c88980de77b520"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="45"
+   name="lib maker.mcs"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-14T09:26:14.144197Z"
+   checksum="6061ccc4cebe8e3ea77bfd483cd55083"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="76"
+   name="lib maker.mcw"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-02-07T15:08:56.734738Z"
+   checksum="ba9784f20f617514971233d510d8fdce"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+</wc-entries>

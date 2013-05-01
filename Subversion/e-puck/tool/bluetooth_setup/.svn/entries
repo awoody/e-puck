@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2006-11-15T11:45:18.560426Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/bluetooth_setup"
+   last-author="nct"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="epuck_bdaddr_lsa"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="842e40f2206f6f73387ca422d81d1aa4"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="btepucksetup1_bdaddr.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="276a2a7c5d7b3e6fbee58b1d225cba75"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="btepucksetup5_bluepin.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="b3d12725df09bac0c5cb15e93bdf95c8"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="epuck_bdaddr_swis"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="5be6e7f5b2b9535ab8860e5cda2ef269"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="README"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="10681ac4c1eb6d2204e6502340d362f9"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="btepucksetup2_udev.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="6a6f09fc4c1c5572c4ae42273768e8e2"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="btepucksetup4_minirc.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="0d7ad7dad8f735726d2a00c10fad9666"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="bluepin"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="97638822191c0538daad6fc36c45af56"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="btepucksetup3_rfcomm.pl"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="c505ed582128a92984d49aaae3af3b4c"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+</wc-entries>

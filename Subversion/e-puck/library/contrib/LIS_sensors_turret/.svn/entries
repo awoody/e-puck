@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="60"
+   name=""
+   committed-date="2007-10-24T07:23:55.519475Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/contrib/LIS_sensors_turret"
+   last-author="besuchet"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="53"
+   name="e_sharp.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-30T14:35:03.436109Z"
+   checksum="705034d5ef0c8b82ed0419364478d1f4"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_sensext.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="6a0e9a90c7ff9e1a3402cd86cf88d667"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="52"
+   name="e_devantech.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-27T10:01:27.078278Z"
+   checksum="2e75a326a2b22c2c037132e29ad65aab"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="53"
+   name="e_sharp.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-30T14:35:03.436109Z"
+   checksum="1f7ca21cc11fd336ddc5062f87259fb1"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_devantech.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="0275aa7222852e1ceb4dbda829c1e836"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="53"
+   name="e_sensext.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-30T14:35:03.436109Z"
+   checksum="8a1cf6ccb73461f115c384f22786e75e"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

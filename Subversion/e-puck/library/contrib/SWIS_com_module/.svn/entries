@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="60"
+   name=""
+   committed-date="2007-10-24T07:23:55.519475Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/contrib/SWIS_com_module"
+   last-author="besuchet"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="ComModule.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="5436a9516439f83a84e70f16a122b8ea"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="ComModule.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="26579c82e12fde68c5b0adc9c0ebb18b"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="5"
+   name="Makefile"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="d89ef7e63444ebdcda3932a8887e8d66"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

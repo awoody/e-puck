@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="85"
+   name=""
+   committed-date="2008-07-14T12:33:27.334664Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/motor_led"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="60"
+   name="e_init_port.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="76901bc0a239c7848d656e36f2adc3b1"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   name="advance_one_timer"
+   kind="dir"/>
+<entry
+   committed-rev="46"
+   name="motor_LED.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="fde6b67539aa93bb229df89a242b1ff7"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_epuck_ports.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="59ee4f84d091438144ea9a6265c0f926"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_motors.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="7c81a75ca772fb05f814248fa0145fcb"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_led.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="4bf53dafdc6482005a70b17030aedeac"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_motors_timer3.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="dd980d94096ff9103198c6f734f3266f"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_init_port.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="22de6713e066fbe00314e459c71a4da2"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="83"
+   name="Makefile"
+   text-time="2008-03-08T03:00:05.000000Z"
+   committed-date="2008-03-07T09:29:58.465674Z"
+   checksum="908f6e27bcaba405716b1dabc6a85eb9"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-03-08T03:00:05.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_motors.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="19522e9b89f7654180af3f6ea0e7f366"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_led.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="0e9773beff062f3dd455c25514c7f058"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

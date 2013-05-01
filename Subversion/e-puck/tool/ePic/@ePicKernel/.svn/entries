@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="87"
+   name=""
+   committed-date="2008-10-31T12:30:20.760980Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/ePic/@ePicKernel"
+   last-author="yweibel"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="62"
+   name="updateImage.m"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="b51ec77500144364c4dd35aaaecd7eae"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="disconnect.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="39f0d62b3dcdbe39ba7f072ff049e9cb"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="connect.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="9818d31ffa43b9d0f66f099a9bbadc18"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="write.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="72641fd6aa05390cf0c79356acf584ed"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="set.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="31c27af266941f99622918da68c495c6"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="87"
+   name="activate.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="f4198dd6bb88bd904d4c6aceb8f4b471"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="87"
+   name="updateDef.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="2d8ffeb5d355d5fcb37e7acf64adb1c0"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="readBinSized.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="53f5e9bfd93a51cf0ac67ee106573d99"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="readBin.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="f78f9191394cf187de07f11fdaac9f07"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="87"
+   name="display.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="737748ed8a613cc08aa66db5b01da721"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="updateOdometry.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="ac0a2fdcd1e1d9ce021b537daf9a897a"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="87"
+   name="deactivate.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="73b465273fbbf9c0d52c8d88d41e8298"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="read.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="207c4bb324ebd23891e7fadb7fb0f0c1"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   name="private"
+   kind="dir"/>
+<entry
+   committed-rev="87"
+   name="get.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="b4694a34c10b23ee68beca31df61748b"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="flush.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="895eaf301bcac98e9eef056c19d8176a"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="ePicKernel.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="c52af1216fbafc3f3e2b62da41b79a32"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="87"
+   name="update.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="e5f3df93a5a4695ccc25b79e2326dc43"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+<entry
+   committed-rev="62"
+   name="reset.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="84f318b267550fd98231bdd293e1c9f2"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="62"
+   name="writeBin.m"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="4a2d3bd505f303f16f9afe4e33e0f904"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="87"
+   name="status.m"
+   text-time="2008-11-01T03:00:06.000000Z"
+   committed-date="2008-10-31T12:30:20.760980Z"
+   checksum="1baff0e60a1c459b7b2195654a448c59"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-01T03:00:06.000000Z"/>
+</wc-entries>

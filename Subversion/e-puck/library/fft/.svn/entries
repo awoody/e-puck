@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="60"
+   name=""
+   committed-date="2007-10-24T07:23:55.519475Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/fft"
+   last-author="besuchet"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="51"
+   name="libdsp-elf.a"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="fe50959fb88fe835a57da5319241617e"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_input_signal.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="3747d1fa8ab8dc1d7c1c18455b0029e0"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="51"
+   name="e_twiddle_factors.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="eb2d2188848ea079b70a6569d82695d9"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_fft.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="96eb104ddc0b939effe4da4ceb52f266"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_fft_utilities.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="44f29fde2b910eae928e52fda3df937f"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="51"
+   name="libdsp-coff.a"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="c080ff3970c1be6b60022e8b9c44cc91"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_fft.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="fff39ebb4453d119631da79ab921f820"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="51"
+   name="e_fast_copy.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="d498b97cadb5025a05d00d0b35b1e950"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="51"
+   name="e_subtract_mean.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="cbf69310c7fe26363fab071508b59d74"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

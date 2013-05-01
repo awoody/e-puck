@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="104"
+   name=""
+   committed-date="2008-12-15T14:47:50.215328Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/bluetooth"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="104"
+   name="e_bluetooth.h"
+   text-time="2008-12-16T03:00:12.000000Z"
+   committed-date="2008-12-15T14:47:50.215328Z"
+   checksum="2a38acaafe0116fcd2c0f84e6f99ebae"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-12-16T03:00:12.000000Z"/>
+<entry
+   committed-rev="46"
+   name="bluetooth.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="3ea619a1bdf9a08ea530fa040d2c4f69"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="104"
+   name="e_bluetooth.c"
+   text-time="2008-12-16T03:00:12.000000Z"
+   committed-date="2008-12-15T14:47:50.215328Z"
+   checksum="d11ca00879ef0654d265c1f3b4b20cee"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-12-16T03:00:12.000000Z"/>
+</wc-entries>

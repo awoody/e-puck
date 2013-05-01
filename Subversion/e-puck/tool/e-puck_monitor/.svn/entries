@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2006-11-15T11:45:18.560426Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/e-puck_monitor"
+   last-author="nct"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="EpuckMonitor.cpp"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="e2bf5f7ddbdbe7f2b053685b4be6f81a"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="EpuckMonitor.bpr"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="e186130330dee12ad78c807cc7ac54c6"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="comm.h"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="ba38db9e4a271117a5f08e62bf886194"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="main.cpp"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="483867d1b8634212f1dfb527d96f1046"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="serialport.cpp"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="515152edd7c15fdcfa5d23e2a18a9307"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="main.dfm"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="e4fe852a7a02fece19952e79f0b11a49"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="status.h"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2bac2c426a3cadc7a56e60ec85e711f3"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="main.h"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="5435c25333fdbc88595cb1ba4a0715fd"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="serialport.h"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="a9dca72d0214ada307a180e50a166c15"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="Icone2_e-puck.ico"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="a4550e92e7704fa15eac5d94cad3154c"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="comm.cpp"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="87f9c192607e4aac5782590d7dbb57fe"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+</wc-entries>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="83"
+   name=""
+   committed-date="2008-03-07T09:29:58.465674Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/I2C"
+   last-author="nct"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="60"
+   name="e_I2C_master_module.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="1af31f977e3515c62f017e11dcb38c17"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_I2C_protocol.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="0dad50633d9c2fb18de0dff4e4fa9cd6"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_I2C_master_module.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="c2d6f74d20a3f3457320be237b961a9d"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_I2C_protocol.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="93d15c926cb068ee6f150ec15a41026b"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="46"
+   name="I2C.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:29:11.059882Z"
+   checksum="676362e34b7cde7bc467693b14ef8168"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="83"
+   name="Makefile"
+   text-time="2008-03-08T03:00:05.000000Z"
+   committed-date="2008-03-07T09:29:58.465674Z"
+   checksum="cea103d6eb6e5a88d83d85d9335a3417"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-03-08T03:00:05.000000Z"/>
+</wc-entries>

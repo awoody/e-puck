@@ -1,0 +1,634 @@
+
+<!-- saved from url=(0073)http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page2680.htm -->
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+b\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Un-brick an e-puck</title>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Times New Roman";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Times New Roman";
+	font-size:10.0pt;
+	color:black;}
+ol
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+ul
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+@page
+	{size:8.0302in 11.0in;}
+-->
+</style>
+</head>
+
+<body link="#B547B8" vlink="#438255" style="margin:0">
+
+<div style="position:absolute;width:12.0459in;height:8.-729in">
+<!--[if gte vml 1]><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"
+ path="m,l,21600r21600,l21600,xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype><v:shape id="_x0000_s1508" type="#_x0000_t202" style='position:absolute;
+ left:204pt;top:113.72pt;width:198.75pt;height:31.5pt;z-index:28;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:28;
+left:272px;top:152px;width:265px;height:42px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="265" height="42" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1508" style="padding:2.88pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><span lang="en-US" style="font-size:17.0pt;font-weight:bold;
+  language:en-US">Unbrick an e-puck</span></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1538" type="#_x0000_t202"
+ style='position:absolute;left:204.16pt;top:146.87pt;width:509.61pt;height:490.39pt;
+ z-index:57;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:57;
+left:272px;top:196px;width:680px;height:654px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="680" height="654" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1538" style="padding:2.88pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;font-weight:bold;
+  language:en-US">Overview</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">It is possible to render the robots unresponsive, in effect `bricking` them. This occurs when it becomes impossible to establish a Bluetooth connection to the robot. The program that was previously bootloaded onto the robot will remain and run as usual, but it is not possible to place a new program on the robot. The most common cause of this condition is to improperly use the Bluetooth connection for debugging. (Code for correctly sending messages from the robot to the computer is included in the first lab.) The only way to `unbrick` a robot is to manually reflash the processor with the bootloader and a well-behaved program.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;font-weight:bold;
+  language:en-US">Procedure</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">&nbsp;</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">1. Remove the IR ring and selector-switch board from the top of the robot. Be careful not to bend the components of the IR ring when you remove it. It's best to grab the board by placing three fingers next to the screw holes on the perimeter of the board.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">2. We have a device (an ICD2) which connects to a computer running MPLAB, takes a .hex file and flashes the processor. There is a special cable to connect from this device to the robot. Please do not lose this cable (RJ11 to MicroMatch-6). Obtain this device from Christian.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">3. Connect the ICD2 to the computer using a serial cable. The baud rate should be 19200 baud.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">4. Make sure that the serial port on the computer is set to the same baud rate and that FIFO is unchecked.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">5. Open MPLAB raw (no project open, just the program). Find the file demoGCtronic.hex. `Import` it using File -&gt; Import.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">6. Connect the ICD2 to the computer and the robot.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">7. Turn on the robot.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">8. Connect to the robot from MPLAB. Click Programmer -&gt; Select Programmer -&gt; ICD2. Then click Programmer -&gt; Connect.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US">9. Click Programmer -&gt; Program.</span></p>
+  <p class="MsoNormal"><span lang="en-US" style="font-size:12.0pt;language:en-US"><span dir="ltr"></span>10. After this is complete, you should be able to establish a regular Bluetooth connection to the robot and bootload the program you want to run.</span></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1674" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:140.78pt;width:154.43pt;height:23.4pt;
+ z-index:193;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:193;
+left:43px;top:188px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1674" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page2664.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Software installation</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1675" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:114.54pt;width:154.43pt;height:23.4pt;
+ z-index:194;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:194;
+left:43px;top:153px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1675" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Home</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1676" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:167.63pt;width:154.43pt;height:23.4pt;
+ z-index:195;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:195;
+left:43px;top:224px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1676" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page609.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">E-puck essentials</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1677" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:193.73pt;width:154.43pt;height:23.4pt;
+ z-index:196;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:196;
+left:43px;top:258px;width:206px;height:32px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="32" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1677" style="padding:4.8749pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page418.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Lab 1 - Intro</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1678" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:219.68pt;width:154.43pt;height:23.4pt;
+ z-index:197;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:197;
+left:43px;top:293px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1678" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page429.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Lab 2 - Obstacle avoidance</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1679" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:246.38pt;width:154.43pt;height:23.4pt;
+ z-index:198;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:198;
+left:43px;top:329px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1679" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page432.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Lab 3 - Camera</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1680" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:273.08pt;width:154.43pt;height:23.4pt;
+ z-index:199;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:199;
+left:43px;top:364px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1680" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page654.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Lab 4 - IR-ring</span></a><span lang="en-US" style="font-family:Arial;color:black;font-weight:bold;language:en-US"> </span></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1681" type="#_x0000_t202"
+ style='position:absolute;left:31.94pt;top:299.03pt;width:154.43pt;height:23.4pt;
+ z-index:200;visibility:visible;mso-wrap-edited:f;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+ mso-position-vertical-relative:text' filled="f" fillcolor="white [7]"
+ stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke dashstyle="dash">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+ <v:textbox style='mso-column-margin:5.76pt' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:200;
+left:43px;top:399px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1681" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page2686.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Lab 5 - Advanced behaviors</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1682" type="#_x0000_t202"
+ style='position:absolute;left:31.5pt;top:378.61pt;width:154.5pt;height:23.25pt;
+ z-index:201;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:201;
+left:42px;top:505px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1682" style="padding:5.25pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page286.htm"><span lang="en-US" style="font-family:
+  Arial;color:black;text-decoration:none;font-weight:bold;language:en-US">Unbrick an e-puck</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1683" type="#_x0000_t202"
+ style='position:absolute;left:31.5pt;top:351.61pt;width:154.5pt;height:23.25pt;
+ z-index:202;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:202;
+left:42px;top:469px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1683" style="padding:5.25pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page286.htm"><span lang="en-US" style="font-family:
+  Arial;color:black;text-decoration:none;font-weight:bold;language:en-US">E-puck monitor</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1684" type="#_x0000_t202"
+ style='position:absolute;left:31.5pt;top:325.36pt;width:154.5pt;height:23.25pt;
+ z-index:203;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:203;
+left:42px;top:434px;width:206px;height:31px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="31" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1684" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal" style="line-height:113%"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page363.htm"><span lang="en-US" style="font-family:Arial;color:black;text-decoration:none;
+  font-weight:bold;language:en-US">Teams and tutorial status</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1685" type="#_x0000_t202"
+ style='position:absolute;left:31.5pt;top:405.61pt;width:154.5pt;height:21.75pt;
+ z-index:204;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:204;
+left:42px;top:541px;width:206px;height:29px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="206" height="29" valign="middle" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1685" style="padding:4.5pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><a href="http://www.eecs.harvard.edu/ssr/teaching/epucks/e-site_files/Page828.htm"><span lang="en-US" style="font-family:
+  Arial;color:black;text-decoration:none;font-weight:bold;language:en-US">Installing the kicker</span></a></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1686" type="#_x0000_t202"
+ style='position:absolute;left:31.55pt;top:447.13pt;width:152.42pt;height:15.9pt;
+ z-index:205;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:205;
+left:42px;top:596px;width:203px;height:21px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="203" height="21" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1686" style="padding:2.88pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><span lang="en-US" style="font-family:Arial;font-weight:
+  bold;language:en-US">Design by Christian Ahler</span></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:rect id="_x0000_s1739" style='position:absolute;
+ left:579.22pt;top:30.75pt;width:176.03pt;height:60.72pt;z-index:258;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt'
+ o:preferrelative="t" filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" joinstyle="miter"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image2684.png" o:title="epuck"/>
+ <v:shadow color="#dedede [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:258;
+left:772px;top:41px;width:235px;height:81px"><img width="235" height="81" src="./Un-brick an e-puck_files/image2684.png" v:shapes="_x0000_s1739"></span><!--[endif]--><!--[if gte vml 1]><v:shape
+ id="_x0000_s1740" type="#_x0000_t202" style='position:absolute;left:31.5pt;
+ top:36.4pt;width:207pt;height:42.75pt;z-index:259;mso-wrap-distance-left:2.88pt;
+ mso-wrap-distance-top:2.88pt;mso-wrap-distance-right:2.88pt;
+ mso-wrap-distance-bottom:2.88pt' filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:259;
+left:42px;top:49px;width:276px;height:57px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="276" height="57" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1740" style="padding:2.88pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><span lang="en-US" style="font-size:25.0pt;font-weight:bold;
+  language:en-US">CS266 - E-pucks</span></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:shape id="_x0000_s1755" type="#_x0000_t202"
+ style='position:absolute;left:33pt;top:66pt;width:132pt;height:19.5pt;
+ z-index:274;mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#dedede [4]"/>
+ <v:path insetpenok="f"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:274;
+left:44px;top:88px;width:176px;height:26px">
+
+<table cellpadding="0" cellspacing="0">
+ <tbody><tr>
+  <td width="176" height="26" style="vertical-align:top"><!--[endif]-->
+  <div v:shape="_x0000_s1755" style="padding:2.88pt 2.88pt 2.88pt 2.88pt" class="shape">
+  <p class="MsoNormal"><span lang="en-US" style="language:en-US">Beta version</span></p>
+  </div>
+  <!--[if !vml]--></td>
+ </tr>
+</tbody></table>
+
+</span><!--[endif]--><!--[if gte vml 1]><v:rect id="_x0000_s1765" style='position:absolute;
+ left:246.43pt;top:20.87pt;width:289.35pt;height:74.09pt;z-index:284;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt'
+ o:preferrelative="t" filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="image845.jpg" o:title="E-puck table direct front"/>
+ <v:shadow color="#dedede [4]"/>
+ <v:path o:extrusionok="f" insetpenok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><!--[if !vml]--><span style="position:absolute;z-index:284;
+left:329px;top:28px;width:385px;height:99px"><img width="385" height="99" src="./Un-brick an e-puck_files/image845.jpg" v:shapes="_x0000_s1765"></span><!--[endif]-->
+</div>
+
+
+
+
+</body></html>

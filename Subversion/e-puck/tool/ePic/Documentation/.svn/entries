@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="91"
+   name=""
+   committed-date="2008-11-05T10:20:58.899524Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/ePic/Documentation"
+   last-author="yweibel"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="90"
+   name="ePic2_doc.pdf"
+   text-time="2008-11-06T03:00:07.000000Z"
+   committed-date="2008-11-05T10:19:29.116375Z"
+   checksum="5f60c6dc6a0799f75f0f10741c086c05"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-06T03:00:07.000000Z"/>
+<entry
+   committed-rev="62"
+   name="ePic2.png"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-11-14T14:00:22.547393Z"
+   checksum="bfebd74156795129507c3081a311c80f"
+   last-author="jhubert"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="90"
+   name="ePic2_doc.tex"
+   text-time="2008-11-06T03:00:07.000000Z"
+   committed-date="2008-11-05T10:19:29.116375Z"
+   checksum="b0613f7ee24a7ed0c8240426c5ab6f19"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-06T03:00:07.000000Z"/>
+<entry
+   committed-rev="91"
+   name="ePic2.pdf"
+   text-time="2008-11-06T03:00:07.000000Z"
+   committed-date="2008-11-05T10:20:58.899524Z"
+   checksum="42c76bda121d5dbd1a9e6823656914cd"
+   last-author="yweibel"
+   kind="file"
+   prop-time="2008-11-06T03:00:07.000000Z"/>
+<entry
+   name="ePic2_graffle.graffle"
+   kind="dir"/>
+</wc-entries>

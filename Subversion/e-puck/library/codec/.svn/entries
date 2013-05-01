@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="60"
+   name=""
+   committed-date="2007-10-24T07:23:55.519475Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/codec"
+   last-author="besuchet"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="7"
+   name="e_init_codec_slave.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-12-15T09:22:33.020197Z"
+   checksum="74782a15e4758391fc2bc26c42e108d1"
+   last-author="michel"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="30"
+   name="e_isr_dci.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-08T14:23:53.723126Z"
+   checksum="512b18ae6e7800bbd48a608c40801342"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="7"
+   name="e_init_dci_master.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-12-15T09:22:33.020197Z"
+   checksum="693ce1246198757242895c64cd9c3479"
+   last-author="michel"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_sound.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="d5dcd286586cb3ffde4d419cfbb38145"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="5"
+   name="e_const_sound.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="6d30058e938c939292ea70944194729a"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="30"
+   name="e_common.inc"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-08T14:23:53.723126Z"
+   checksum="f42c781004f5a2eacae68a036bc8602b"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="47"
+   name="sound.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-14T09:48:59.869381Z"
+   checksum="70cef73230102f5a526b86ad3dbc9747"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="37"
+   name="e_sub_dci_kickoff.s"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-10T10:18:22.557588Z"
+   checksum="ae75484a8aaa7aec2b90624a6731e921"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="5"
+   name="README.txt"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="34c3bd3375c2a57bcbf9d1e9fc8376c9"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="5"
+   name="Makefile"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2682725ad82bbd38a21d3b1cbeacd888"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="e_sound.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="2fb51dfe0261ebb47c37b34417835579"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

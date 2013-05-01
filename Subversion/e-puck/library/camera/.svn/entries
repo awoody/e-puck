@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="86"
+   name=""
+   committed-date="2008-07-28T09:02:53.649005Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/camera"
+   last-author="retornaz"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="slow_3_timer"
+   kind="dir"/>
+<entry
+   name="fast_2_timer"
+   kind="dir"/>
+</wc-entries>

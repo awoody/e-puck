@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="84"
+   name=""
+   committed-date="2008-07-03T10:03:17.864077Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/program/demo"
+   last-author="retornaz"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="measure.txt"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="runaccelerometer.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="cb50d9c161154892f38d725290b5295c"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="Doxyfile"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="4ef97286a4ca1bfa456f1e941366000f"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="52"
+   name="selector.gif"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-27T10:01:27.078278Z"
+   checksum="efe87105fb28bc4629bd278b2a6fdb67"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="runaccelerometer.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="f71cd94e7de07581c6aa7d0cce6d709e"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="runlocatesound.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="c2864a0035c8db7d5fe3bec1ed8f5277"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="61"
+   name="runwallfollow.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-10-31T09:12:06.805287Z"
+   checksum="48d852d1f1caa26f52cb55c7d68edc40"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="runlocatesound.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="d84ad8c2abfe2ed1bbe420f68979c4dc"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="runwallfollow.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="aa13bd59150b82616142c29dbc107bea"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="51"
+   name="runcollaboration.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="70e20711c386100bc49499ed394cc9d1"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="common.inc"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="feef6170bcad404b722ad141b9ef3826"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="84"
+   name="runfollowball.c"
+   text-time="2008-07-05T02:00:04.000000Z"
+   committed-date="2008-07-03T10:03:17.864077Z"
+   checksum="ca29dc5f5474749859e9766606c63ce9"
+   last-author="retornaz"
+   kind="file"
+   prop-time="2008-07-05T02:00:04.000000Z"/>
+<entry
+   committed-rev="5"
+   name="runcollaboration.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2339ae8e99d107f64e2fbc38acb20a64"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="52"
+   name="logo.gif"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-27T10:01:27.078278Z"
+   checksum="1832240f79a698b9a3e13518618c29da"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="ComModule.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="d4b75dc061d6d252a444f4a5bafc2deb"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="main_c.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="ce68908023c9da7bef92488e5a800f56"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="sound1.mp3"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="1154b4200eac9875c3051e503c7fea42"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="runfollowball.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="01bfa37ffc1c47ce01f9246f82414624"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="51"
+   name="sound2.mp3"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="473cdd07ce58e81e2442b04bfb57b118"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="72"
+   name="demo.mcw"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:37:18.307289Z"
+   checksum="ba570af8b7bf657472e9a67578bc8a32"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="ComModule.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="fcae9ad7dfbb2def49146f0509b17fdd"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="runacclive.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="37744ffd3b9c9ab0576b8d39b30a6199"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="Makefile"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="d46bac569388102eb585fd33ae04a20d"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="61"
+   name="search_ball.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-10-31T09:12:06.805287Z"
+   checksum="4dfed7305e7d1581c67a8be6e9991cf4"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="runacclive.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="66ab06bb761d25457dd592a4fadc5e64"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="utility.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="cdb60d776d7b0c9aa7e33f192a47a5d1"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="51"
+   name="search_ball.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-23T07:45:39.442109Z"
+   checksum="313ec86d0c3b4c65d9435102a4378cdc"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="66"
+   name="runbreitenberg_adv.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-18T12:52:14.261717Z"
+   checksum="ceed92874885b3fc5b0b1f5cea81363f"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="71"
+   name="Demo-default.hex"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:23:05.454448Z"
+   checksum="556ac321c6a6ed7f2e34ad414b8866a4"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="utility.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="b8d084099589471913136ead75e2d3b4"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="runfftlistener.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="066fb3e9586b411ba3227c0db4cdba51"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="runbreitenberg_adv.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="3dbbdf3681e02919ee8cff19e28bdd76"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="5"
+   name="runbreitenberg.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="203503b426a56642c0bcafc57d18e8a5"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="runfftlistener.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="b25b1b2336bb5cec641e3549ae94b344"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="84"
+   name="Demo.mcp"
+   text-time="2008-07-05T02:00:04.000000Z"
+   committed-date="2008-07-03T10:03:17.864077Z"
+   checksum="4d6014b238419ef52acb451d48adb438"
+   last-author="retornaz"
+   kind="file"
+   prop-time="2008-07-05T02:00:04.000000Z"/>
+<entry
+   committed-rev="5"
+   name="runbreitenberg.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2f7117f34961311956050f7d95ec5d04"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="69"
+   name="rungrounddirection.c"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2008-01-28T10:09:24.414998Z"
+   checksum="03ce974d2cf3d1856e3d1c8bf22eb95d"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+<entry
+   committed-rev="56"
+   name="rungrounddirection.h"
+   text-time="2008-02-29T07:42:32.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="bf5d88bc06a551edf5aa8f3afd4c74b4"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:32.000000Z"/>
+</wc-entries>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="104"
+   name=""
+   committed-date="2008-12-15T14:47:50.215328Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="library"
+   kind="dir"/>
+<entry
+   name="program"
+   kind="dir"/>
+<entry
+   name="tool"
+   kind="dir"/>
+</wc-entries>

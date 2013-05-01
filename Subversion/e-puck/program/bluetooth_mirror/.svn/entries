@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="75"
+   name=""
+   committed-date="2008-02-07T15:06:09.130379Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/program/bluetooth_mirror"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="runbreitenberg.h"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2f7117f34961311956050f7d95ec5d04"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="75"
+   name="bluetoot_mirror.mcp"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2008-02-07T15:06:09.130379Z"
+   checksum="8fe7e4fdca917f7672db583b207b1325"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="75"
+   name="main.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2008-02-07T15:06:09.130379Z"
+   checksum="47047ad37849c3f16d460a1dad455246"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="75"
+   name="bluetoot_mirror.hex"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2008-02-07T15:06:09.130379Z"
+   checksum="0cbca63fd88727efc9bc2b478e19cab9"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="75"
+   name="bluetoot_mirror.mcw"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2008-02-07T15:06:09.130379Z"
+   checksum="74ee0ccf363631173fd44f54aa66fb34"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="75"
+   name="runbreitenberg.c"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2008-02-07T15:06:09.130379Z"
+   checksum="bb275998d5b10038633061ee458d3d0c"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

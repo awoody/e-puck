@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="17"
+   name=""
+   committed-date="2007-03-12T17:11:01.498713Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/bootloader/epuck_side"
+   last-author="mbonani"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="5"
+   name="tinybld_ds6014A_7.37Mhz_115200uart1_8xPLL_with_LEDs.mcp"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="27a4da8ab27e0b5f3f2ea3c9a0354125"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="17"
+   name="tinybld_ds6014A_7.37Mhz_115200uart2_8xPLL_with_LEDs.mcp"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-03-12T17:11:01.498713Z"
+   checksum="7175c3084e78471ae7b8b34725cfe55e"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="11"
+   name="tinybld_ds6014A_7.37Mhz_115200uart1_8xPLL_with_LEDs.s"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-02-08T14:04:11.819197Z"
+   checksum="9bfdd4d8657580db7ec5e200ba6110b0"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="tinybld_ds6014A_7.37Mhz_115200uart1_8xPLL_with_LEDs_helper.hex"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2c9472f6d205f3771cc1800029627183"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="17"
+   name="tinybld_ds6014A_7.37Mhz_115200uart2_8xPLL_with_LEDs.s"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-03-12T17:11:01.498713Z"
+   checksum="152c99668593be0ab74b659448490916"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="11"
+   name="tinybld_ds6014A_7.37Mhz_115200uart1_8xPLL_with_LEDs.hex"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-02-08T14:04:11.819197Z"
+   checksum="7e1f3a72e262d8ae7559ebfd59d559fc"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="17"
+   name="tinybld_ds6014A_7.37Mhz_115200uart2_8xPLL_with_LEDs.hex"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2007-03-12T17:11:01.498713Z"
+   checksum="40f603e49f462e38a54dcb1906cf51d7"
+   last-author="mbonani"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="readme.txt"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="3d645637598da9280cd21b3cb5c0735b"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+</wc-entries>

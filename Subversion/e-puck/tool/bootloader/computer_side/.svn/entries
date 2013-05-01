@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="16"
+   name=""
+   committed-date="2007-03-12T16:42:18.364331Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/bootloader/computer_side"
+   last-author="nct"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="linux-libbluetooth"
+   kind="dir"/>
+<entry
+   name="multi_platform"
+   kind="dir"/>
+</wc-entries>

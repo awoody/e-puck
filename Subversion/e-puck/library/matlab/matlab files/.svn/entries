@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="60"
+   name=""
+   committed-date="2007-10-24T07:23:55.519475Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/library/matlab/matlab%20files"
+   last-author="besuchet"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   committed-rev="56"
+   name="EpuckFlush.m"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="734b3fe5cbf8df974b88164fa779c8b7"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="OpenEpuck.m"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="191de89490ebde9e87d368a0c6843deb"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="56"
+   name="EpuckSendData.m"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="3119224635432da9dcb2cbe3c3a0703f"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="60"
+   name="CloseEpuck.m"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-10-24T07:23:55.519475Z"
+   checksum="f769f239f7b77dbf4b648579595e83fe"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+<entry
+   committed-rev="56"
+   name="EpuckGetData.m"
+   text-time="2008-02-29T07:42:31.000000Z"
+   committed-date="2007-08-31T08:42:29.935220Z"
+   checksum="ff346f7d4f4024362dea3c40be29b030"
+   last-author="besuchet"
+   kind="file"
+   prop-time="2008-02-29T07:42:31.000000Z"/>
+</wc-entries>

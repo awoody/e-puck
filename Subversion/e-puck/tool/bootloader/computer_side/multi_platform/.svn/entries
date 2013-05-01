@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2006-11-15T11:45:18.560426Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/tool/bootloader/computer_side/multi_platform"
+   last-author="nct"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="protocol_tools"
+   kind="dir"/>
+<entry
+   committed-rev="5"
+   name="epuckupload"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="2b7a5504731315127f34689d94f144bf"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+<entry
+   committed-rev="5"
+   name="README"
+   text-time="2008-02-29T07:42:33.000000Z"
+   committed-date="2006-11-15T11:45:18.560426Z"
+   checksum="6b203a19a5dbef23d753f2256382524c"
+   last-author="nct"
+   kind="file"
+   prop-time="2008-02-29T07:42:33.000000Z"/>
+</wc-entries>

@@ -1,0 +1,43 @@
+#VRML_SIM V6.0 utf8
+WorldInfo {
+  info [
+    "Description"
+    "Author: first name last name <e-mail>"
+    "Date: DD MMM YYYY"
+  ]
+}
+Viewpoint {
+  orientation -0.0912045 0.929772 0.356658 3.24433
+  position -0.0780489 0.943097 -0.888213
+}
+Background {
+  skyColor [
+    0.4 0.7 1
+  ]
+}
+PointLight {
+  location 0 0.345 0
+}
+DEF FLOOR CheckeredFloor {
+}
+EPuck {
+  translation -0.0446181 -6.58236e-05 -0.0114436
+  rotation 0.00289479 0.999967 0.00754126 -2.39464
+  controller "movingBlinker"
+}
+WoodBox {
+  translation 0 0.05 -0.5
+  boxSize 1 0.1 0.1
+}
+WoodBox {
+  translation 0 0.05 0.5
+  boxSize 1 0.1 0.1
+}
+WoodBox {
+  translation 0.52 0.05 0
+  boxSize 0.1 0.1 1.1
+}
+WoodBox {
+  translation -0.45 0.05 0
+  boxSize 0.1 0.1 1.1
+}

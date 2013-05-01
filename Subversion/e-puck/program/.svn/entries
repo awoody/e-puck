@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="86"
+   name=""
+   committed-date="2008-07-28T09:02:53.649005Z"
+   url="svn://svn.gna.org/svn/e-puck/trunk/program"
+   last-author="retornaz"
+   kind="dir"
+   uuid="dd42c626-9621-0410-abf5-c0ec4585b3f2"
+   revision="104"/>
+<entry
+   name="bluetooth_mirror"
+   kind="dir"/>
+<entry
+   name="BTcom"
+   kind="dir"/>
+<entry
+   name="demo"
+   kind="dir"/>
+<entry
+   name="statics libraries maker"
+   kind="dir"/>
+</wc-entries>
